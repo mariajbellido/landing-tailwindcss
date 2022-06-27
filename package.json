@@ -1,0 +1,22 @@
+{
+  "name": "landing-tailwindcss",
+  "version": "1.0.0",
+  "description": "A landing using TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "watch": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "html",
+    "css"
+  ],
+  "author": "Maria Jesus Bellido",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
